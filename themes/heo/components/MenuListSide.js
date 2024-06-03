@@ -48,7 +48,7 @@ export const MenuListSide = props => {
   }
 
   return (
-    <nav className='flex-col space-y-1'>
+    <nav className='flex-col space-y-2'>
       {links?.map((link, index) => (
         <MenuItemCollapse key={index} link={link} />
       ))}
